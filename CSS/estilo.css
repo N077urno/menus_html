@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+body{
+	background-color: blue;
+
+}
+
+#menu{
+	display: block; 						/* informa que o menu é um bloco único */
+	margin-left: 300px;						/* Margem esquerda (não está separado numa sessão) */
+
+}
+
+#menu ul{
+	list-style: none;						/* retira o marcador de lista */
+	text-transform: uppercase;				/* deixa os elementos do menu em maiusculo */
+	position: absolute;						/* deixa a posição absoluta em relação ao site */	
+	top: 0px;								/* coloca o menu no topo da página */
+	
+}
+
+#menu li{
+	display: inline-block;					/* Coloca a lista em linha */
+	background-color: #dddddd;				/* Coloca a cor de fundo */
+	padding: 10px;							/* Espaçamento interno do elemento */
+	margin: 4px;							/* Margens do elemento */
+	
+}
+
+#menu li:hover{
+	background-color: #ffffff;				/* Altera a cor de fundo para Branco */
+	
+}
+
+#menu a{
+	text-decoration: none;
+}
+
+
+p{
+	text-align: justify;
+	text-indent: 50px;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	color: #abcdef;
+	padding: 50px;
+}
+
+h2{
+	text-align: center;
+	color: #012345;
+}
+
+h3{
+	text-align: center;
+	color: brown;
+}
+
+h4{
+	text-align: center;
+	color: black;
+}
+
+h5{
+	text-align: center;
+	color: red;
+}
+
+/* configura a cor de um link antes de ser clicado */
+
+a{
+	color: black;
+}
+
+/* configura a cor de um link depois de ser clicado */
+
+a:visited{
+	color: red;
+}
+
+ol{
+	color: pink;
+}
+
+ul{
+	color: yellow;
+}
+
+img{
+	width: 300px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+

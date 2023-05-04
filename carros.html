@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Carros</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+
+	<style>
+		nav ul{
+			list-style: none;
+			display: flex;					/* define um container como um Flex Container e
+											 permitir que seus filhos sejam organizados como itens flexíveis. 
+											 Isso permite que os elementos filhos sejam posicionados e alinhados de maneira mais flexível, sem precisar definir propriedades de posicionamento ou float. */
+
+			justify-content: space-between; /* é usada para alinhar os itens
+											horizontalmente em um container. Quando usada, ela distribui o espaço sobressalente de forma uniforme entre os itens e, ao mesmo tempo, posiciona o primeiro item no início do container e o último item no final do container. */
+			align-items: center;
+			background-color: #333;
+			padding: 10px;
+		}
+
+		nav li{
+			margin-right: 10px;
+		}
+
+		nav a{
+			color: #fff;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;			/* Intensidade da fonte */
+			padding: 10px;
+			transition: all 0.3s ease;	/* Significa que todas as propriedades do elemento
+										terão uma transição suave (easing) de 0,3 segundos quando houver mudanças em seu estado. Isso inclui propriedades como cor, tamanho, posição, opacidade, etc */
+		}
+
+		nav a:hover{
+			background-color: #fff;
+			color: #333;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">home</a></li>
+			<li><a href="carros.html">carros</a></li>
+			<li><a href="motos.html">motos</a></li>
+			<li><a href="onibus.html">ônibus</a></li>
+		</ul>	
+	</nav>
+
+	<h1>Título Principal</h1>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<img src="imagens/carros1.jpg">
+
+	<h2>Título Secundário</h2>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<img src="imagens/carros2.webp">
+
+	<ol>
+		<li>Carro popular</li>
+		<li>Sedans Médios</li>
+		<li>SUVs</li>
+	</ol>
+
+	<ol type="a">
+		<li>carro 1</li>
+		<li>carro 2</li>
+		<li>carro 3</li>
+	</ol>
+
+	<ol type="A">
+		<li>Honda</li>
+		<li>Fiat</li>
+		<li>VW</li>
+	</ol>
+
+	<ol type="i">
+		<li>SUVs</li>
+		<li>Camionetes</li>
+		<li>Carros populares</li>
+		<li>Caminhões</li>
+		<li>Frotistas</li>
+	</ol>
+
+	<ol type="I">
+		<li>Prata</li>
+		<li>Preto</li>
+		<li>Branco</li>
+		<li>Vermelho</li>
+		<li>Azul</li>
+	</ol>
+
+	<ol type="i">
+		<li>Frotistas</li>
+		<li>Venda Direta</li>
+	</ol>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<ol type="i" start="3">
+		<li>Usados</li>
+	</ol>
+
+	<ul>
+		<li>Air Bag</li>
+		<li>ABS</li>
+		<li>Controle de Tração e Estabilidade</li>
+	</ul>
+
+	<ul type="square">
+		<li>14 pol</li>
+		<li>15 pol</li>
+		<li>16 pol</li>
+		<li>17 pol</li>
+		
+	</ul>
+
+	<ul type="circle">
+		<li>1.0</li>
+		<li>1.2 turbo</li>
+		<li>2.0</li>
+		<li>3.0 V6 turbo</li>
+	</ul>
+
+	Desenvolvido por N@ndo &copy;
+
+</body>
+</html>

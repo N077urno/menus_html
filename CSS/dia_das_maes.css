@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+body{
+	background-color: #ffffff;
+}
+
+.menu-dropdown ul{						/* Utiliza o identificador .menu-dropdown p/ ul */
+	list-style: none;					/* retira os marcadores da lista */
+	margin: 0px;						/* coloca as margens da lista em 0px */
+	padding: 0px;						/* coloca o espaçamento interno do elemento em 0px*/
+}
+
+.menu-dropdown > ul > li{				/* seleciona o elemento li que é filho direto de ul */
+	display: inline-block;				/* converte os elementos para um bloco em linha */
+	position: relative;					/* deixa a posição dos elementos relativas ao elemento pai */
+}
+
+.menu-dropdown > ul > li > a{			/* seleciona o elemento a que é filho direto de li */
+	display: block;						/* converte os elementos num bloco único */
+	padding: 10px 20px;					/* 10px superior e inferior, 20px direita e esquerda */
+	color: #333;
+	text-decoration: none;
+}
+
+.menu-dropdown > ul > li:hover > a{		/* seleciona o elemento a ao passar o mouse sobre li */
+	background-color: #eee;				/* modifica a cor de fundo */
+}
+
+.menu-dropdown > ul > li > ul {			/* seleciona o elemento ul que é filho direto de li */
+	display: none;						/* oculta elemento da página */
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.menu-dropdown > ul > li:hover ul{		/* seleciona o elemento ul ao passar o mouse sobre li */
+	display: block;				
+}
+
+.menu-dropdown > ul > li > ul > li{		/* seleciona o elemento li que é filho direto de ul */
+	display: block;
+}
+
+.menu-dropdown > ul > li > ul > li > a{	/* seleciona o elemento a que é filho direto de li */
+	display: block;
+	padding: 5px 0;
+	color: #333;
+	text-decoration: none;
+}
+
+.menu-dropdown > ul > li > ul > li > a:hover{ /* configura o passar do mouse sebre a que é filho direto de ul */
+	background-color: #eee;
+}
+
+p{
+	text-align: right;
+	text-indent: 100px;
+	color: blueviolet;
+}
+
+/*configuração de títulos*/
+
+h1{
+	text-align: right;
+	color: #cccccc;
+}
+
+h2{
+	text-align: center;
+	color: #ffffff;
+}
+
+h3{
+	text-align: center;
+	color: brown;
+}
+
+h4{
+	text-align: center;
+	color: black;
+}
+
+h5{
+	text-align: center;
+	color: red;
+}
+
+img{
+	width: 300px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ol{
+	color: blue;
+}
+
+a{
+	color: black;
+}
+
+/* configura a cor de um link depois de ser clicado */
+
+a:visited{
+	color: red;
+}

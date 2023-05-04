@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ônibus</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+	<style>
+		.menu{
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+			display: flex;					/* define um container como um Flex Container e
+											 permitir que seus filhos sejam organizados como itens flexíveis. 
+											 Isso permite que os elementos filhos sejam posicionados e alinhados de maneira mais flexível, sem precisar definir propriedades de posicionamento ou float. */
+											 
+			justify-content: center;		/* é utilizada para alinhar os itens de um 
+											contêiner em seu eixo principal. O valor "center" especifica que os itens devem ser centralizados no contêiner. Isso significa que o espaço em branco restante será dividido igualmente entre os itens, colocando-os no centro do contêiner. */
+			background-color: #f1f1f1;
+		}
+
+		.menu li{
+			margin: 0px 10px;
+		}
+
+		.menu li a{
+			display: block;
+			padding: 10px;
+			text-decoration: none;
+			color: #333;
+			font-weight: bold;
+			transition: all 0.3s ease;
+		}
+
+		.menu li a:hover{
+			background-color: #333;
+			color: #fff;
+		}
+
+
+	</style>
+</head>
+<body>
+	<nav>
+		<ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="carros.html">Carros</a></li>
+			<li><a href="motos.html">Motos</a></li>
+			<li><a href="onibus.html">Ônibus</a></li>
+		</ul>
+	</nav>
+
+	<h1>Título Principal</h1>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<img src="imagens/onibus1.png">
+
+	<h2>Título Secundário</h2>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<img src="imagens/onibus2.jpeg">
+
+	Desenvolvido por N@ndo &copy;
+
+</body>
+</html>
